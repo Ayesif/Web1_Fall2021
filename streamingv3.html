@@ -1,0 +1,199 @@
+<!doctype html>
+
+<!--
+More CSS Flexbox
+Using Flexbox as a Link
+Streaming Services v3
+-->
+
+<html>
+    <head>
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+            header {
+                text-align:center;
+                background:lightgrey;
+                color:black;
+            }
+            nav {
+                background:#88f03a;
+                color:white;
+                padding:2vh;
+            }
+            footer {
+                background:#88f03a;
+                color:white;
+                padding:2vh;
+                height:10vh;
+            }
+            .container {
+                min-height:70vh;
+                background:#edd5ca;
+                color:black;
+                padding:2vh;
+                width:80%;
+                margin:auto;
+                display:flex;
+                flex-wrap: wrap;
+                flex-direction: row;
+                justify-content: center;
+                
+            }
+            .box{
+              flex-basis: 40%;
+              text-align: center;
+              border-radius: 12px;
+              overflow:hidden;
+              background:#88f03a;
+              margin: 1rem;
+            }
+            .box-image{
+              height:30vh;
+              background:lightgrey;
+              overflow:hidden;
+              
+            }
+            .box-image img{
+              display: block;
+              width:100%;
+            }
+            .box h3{
+              background: #88f03a;
+              padding:.75rem;
+              font-size: 1.75rem;
+            }
+            .box p {
+              padding: 1rem;
+              font-size: 1.15rem;
+              background:white;
+            }
+            .box a{
+              color:black;
+              text-decoration:none;
+            }
+            .box:hover{
+              box-shadow: 7px 25px 13px 12px rgba(0,0,0,0.75);
+            }
+            nav{
+              text-align:center;
+            }
+            
+            
+            
+        </style>
+        <title>Streaming v3</title>
+    </head>
+    
+    <body>
+        <header>
+            <h1>Streaming v3 HTML</h1>
+            <p>
+                Asifur Asif<br>
+                Web 1, HOUR<br>
+                11/11/21
+            </p>
+            <hr>
+        </header>
+        <nav>
+            Placeholder
+        </nav>
+        <div class="container">
+            <!-- Write your assignment code here -->
+            
+            <!-- Start of a box -->
+            <div class="box">
+               <a href="https://www.netflix.com/" target="_blank">
+                <div class="box-image">
+                    <img src="https://i.pcmag.com/imagery/reviews/05cItXL96l4LE9n02WfDR0h-5..1582751026.png" alt="#">
+                </div>
+                <h3>Netflix</h3>
+                <p>
+                    Netflix is a subscription-based streaming service that allows our members to watch TV shows and movies without commercials on an internet-connected device. Netflix is one of the world's leading entertainment services with 214 million paid memberships in over 190 countries enjoying TV series, documentaries and movies. 40% of it is original programming produced in-house.
+                </p>
+               </a>
+            </div>
+            <!-- End of a box -->
+            
+            <!-- Start of a box -->
+            <div class="box">
+               <a href="https://www.crunchyroll.com/" target="_blank">
+                <div class="box-image">
+                    <img src="https://logos-world.net/wp-content/uploads/2021/02/Crunchyroll-Emblem.png" alt="#">
+                </div>
+                <h3>Crunchyroll</h3>
+                <p>
+                    Crunchyroll is an American online website and international online community focused on streaming East Asian media including anime, manga, drama, music, electronic entertainment, and auto racing content. Founded in 2006 by a group of University of California-Berkeley undergraduate students.Crunchyroll is well-known by anime fans as it is home a wide range of different content: from classic anime, to internationally famous mangas like One Piece and One Punch Man.
+                </p>
+               </a>
+            </div>
+            <!-- End of a box -->
+            
+            <!-- Start of a box -->
+            <div class="box">
+               <a href="https://www.disneyplus.com/" target="_blank">
+                <div class="box-image">
+                    <img src="https://media.comicbook.com/2018/11/disney-plus-logo-1143358.jpeg" alt="#">
+                </div>
+                <h3>Disney Plus</h3>
+                <p>
+                     Disney+ is an American subscription video on-demand over-the-top streaming service owned and operated by the Media and Entertainment Distribution division of The Walt Disney Company. With Disney+, you get new releases, classics, series, and Originals from the creators at Disney, Pixar, Marvel, Star Wars, and Nat Geo.
+                </p>
+               </a>
+            </div>
+            <!-- End of a box -->
+            
+            <!-- Start of a box -->
+            <div class="box">
+               <a href="https://www.youtube.com/" target="_blank">
+                <div class="box-image">
+                    <img src="https://cdn.mos.cms.futurecdn.net/8gzcr6RpGStvZFA2qRt4v6.jpg" alt="#">
+                </div>
+                <h3>YouTube</h3>
+                <p>
+                     YouTube is an American online video sharing and social media platform owned by Google.It is the second most visited website, with more than one billion monthly users who collectively watch more than one billion hours of videos each day. YouTube is a video sharing service where users can watch, like, share, comment and upload their own videos. The video service can be accessed on PCs, laptops, tablets and via mobile phones.
+                </p>
+               </a>
+            </div>
+            <!-- End of a box -->
+            
+            <!-- Start of a box -->
+            <div class="box">
+               <a href="https://www.funimation.com/" target="_blank">
+                <div class="box-image">
+                    <img src="https://i.imgur.com/unYA3SK.jpg" alt="#">
+                </div>
+                <h3>Funimation</h3>
+                <p>
+                    Funimation Productions, Ltd. is an American entertainment company that specializes in the dubbing and distribution of East Asian media, most notably Japanese anime.You can watch a limited amount of Funimation's library in 1080p for free with ads. For the full experience, you'll need to subscribe to one of three subscription plans. In addition to the entire library of subs and dubs, Premium provides two simultaneous streams for $5.99 per month. All tiers support HD streaming.
+                </p>
+               </a>
+            </div>
+            <!-- End of a box -->
+            
+            <!-- Start of a box -->
+            <div class="box">
+               <a href="https://www.twitch.tv/" target="_blank">
+                <div class="box-image">
+                    <img src="https://blog.twitch.tv/assets/uploads/03-glitch.jpg" alt="#">
+                </div>
+                <h3>Twitch</h3>
+                <p>
+                    Twitch is an American video live streaming service that focuses on video game live streaming, including broadcasts of esports competitions. In addition, it offers music broadcasts, creative content, and more recently, "in real life" streams. It is operated by Twitch Interactive, a subsidiary of Amazon.com, Inc.In addition, it offers music broadcasts, creative content, and more recently, "in real life" streams. Content on the site can be viewed either live or via video on demand.
+                </p>
+               </a>
+            </div>
+            <!-- End of a box -->
+            
+            
+            
+            
+        </div><!-- Closing tag for container -->
+        <footer>
+            Placeholder
+        </footer>
+    </body>
+</html>
